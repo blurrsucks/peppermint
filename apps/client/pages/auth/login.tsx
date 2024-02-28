@@ -47,11 +47,7 @@ export default function Login({ }) {
         .then(async (res) => {
           if (res.user) {
             setCookie("session", res.token);
-            if (res.user.firstLogin) {
-              router.push("/onboarding");
-            } else {
-              router.push("/");
-            }
+            router.push("/");
           } else {
             notifications.show({
               title: "Error",
@@ -80,13 +76,11 @@ export default function Login({ }) {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <a target="_blank" href="https://peppermint.sh/">
-          <img
-            className="mx-auto h-36 w-auto"
-            src="/login.svg"
-            alt="peppermint.sh logo"
-          />
-        </a>
+        <img
+          className="mx-auto h-auto w-auto"
+          src="https://www.starcinemas.ae/static/media/star_logo_new.04480941.png"
+          alt="star cinemas logo"
+        />
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           Sign in to your account
         </h2>
