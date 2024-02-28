@@ -65,10 +65,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: any) {
       icon: <TicketIcon className="h-8 w-8 text-gray-900" />,
     },
     {
-      title: "Documentation",
-      description: "Documentation for peppermint.sh",
-      onTrigger: () => router.push("https://docs.peppermint.sh"),
-      icon: <DocumentCheckIcon className="h-8 w-8 text-gray-900" />,
+
     },
     {
       title: "Github",

@@ -390,9 +390,9 @@ export default function NewLayout({ children }: any) {
           <div className="flex grow flex-col gap-y-5 overflow-y-auto  bg-[#ffffff] dark:bg-[#393E46] pb-4">
             <div className="flex align-middle flex-row h-14 items-center border-b-[1px] px-6">
               {/* <img className="h-8 w-auto" src="/logo.svg" alt="Workflow" /> */}
-              <Link href="https://peppermint.sh">
+              <Link href="https://starcinemas.ae">
                 <span className="text-3xl ml-2  hover:text-green-600 font-bold ">
-                  Peppermint
+                  Star Cinemas
                 </span>
               </Link>
             </div>
@@ -585,9 +585,7 @@ export default function NewLayout({ children }: any) {
             <div className="flex flex-1 gap-x-4 self-stretch lg:gap-x-6 items-center">
               <div className="flex w-full justify-start items-center">
                 <Link href="https://github.com/Peppermint-Lab/peppermint/releases">
-                  <span className="inline-flex items-center rounded-md bg-green-700/10 px-2 py-1 text-xs font-medium text-green-600 ring-1 ring-inset ring-green-500/20">
-                    Version {user.version}
-                  </span>
+
                 </Link>
               </div>
               {/* <div
