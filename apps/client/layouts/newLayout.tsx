@@ -390,7 +390,7 @@ export default function NewLayout({ children }: any) {
           <div className="flex grow flex-col gap-y-5 overflow-y-auto  bg-[#ffffff] dark:bg-[#393E46] pb-4">
             <div className="flex align-middle flex-row h-14 items-center border-b-[1px] px-6">
               {/* <img className="h-8 w-auto" src="/logo.svg" alt="Workflow" /> */}
-              <Link href="https://starcinemas.ae">
+              <Link href="/">
                 <span className="text-3xl ml-2  hover:text-green-600 font-bold ">
                   Star Cinemas
                 </span>
