@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-export default function Login({}) {
+export default function Login({ }) {
   const router = useRouter();
 
   const [email, setEmail] = useState("");
@@ -99,10 +99,10 @@ export default function Login({}) {
         </div>
 
         <div className="mt-8 text-center flex flex-col space-y-2">
-          <span className="font-bold">Built with 💚 by Peppermint Labs</span>
+          {/* <span className="font-bold">Built with 💚 by Peppermint Labs</span>
           <a href="https://docs.peppermint.sh/" target="_blank">
             Documentation
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
